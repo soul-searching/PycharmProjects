@@ -11,14 +11,24 @@
 # --------------------------------------------------------
 
 # --------------------------多参数-----------------------------
-def enroll(name, gender, age=6, city='SuZhou'):
-    print('name:', name)
-    print('gender:', gender)
-    print('age:', age)
-    print('city:', city)
+# def enroll(name, gender, age=6, city='SuZhou'):
+#     print('name:', name)
+#     print('gender:', gender)
+#     print('age:', age)
+#     print('city:', city)
+#
+#
+# print(enroll('wangyihan', 'AAA'))
 
 
-print(enroll('wangyihan', 'AAA'))
-# ---------------------------------------------------------------
-
-
+# ------------------------------------------------------------
+# -------------------可变参数陷阱（优化后）-----------------------
+# def add_end(L=None):
+#     if L is None:
+#         L = []
+#         L.append('END')
+#     return L
+#
+#
+# print(str(add_end([1, 2, 3, 4])))
+# ------------------------------------------------------------
