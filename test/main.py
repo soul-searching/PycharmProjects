@@ -1,11 +1,21 @@
-# --------------------------幂运算-------------------------
-def power(x, n=2.0):
-    s = 1
-    while n > 0:
-        n = n - 1
-        s = x * s
-    return s
-
-
-print(power(float(input('please enter x:')), float(input('please enter n:'))))
+# -------------------------指数运算------------------------
+# def power(x, n=2.0):
+#     s = 1
+#     while n > 0:
+#         n = n - 1
+#         s = x * s
+#     return s
+#
+#
+# print(power(float(input('please enter x:')), float(input('please enter n:'))))
 # --------------------------------------------------------
+
+# --------------------------多参数-----------------------------
+def enroll(name, gender, age=6, city='SuZhou'):
+    print('name:', name)
+    print('gender:', gender)
+    print('age:', age)
+    print('city:', city)
+
+
+print(enroll('wangyihan', 'AAA'))
