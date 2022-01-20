@@ -51,15 +51,15 @@
 # -----------------------------------------------------------
 
 # ----------------------关键字参数-----------------------------
-def person(name, age, **kw):
-    print('name:', name, 'age:', age, 'other:', kw)
-
-
-person('wm', 34, city='BeiJing', Tel='13300008888')  # 写法一
-
-extra = {'city': 'YanCheng', 'Tel': 18800006666}  # 存在已知dict
-person('pl', 29, city=extra['city'], Tel=extra['Tel'])  # 写法二
-person('pl', 29, **extra)  # 写法三  推荐
+# def person(name, age, **kw):
+#     print('name:', name, 'age:', age, 'other:', kw)
+#
+#
+# person('wm', 34, city='BeiJing', Tel='13300008888')  # 写法一
+#
+# extra = {'city': 'YanCheng', 'Tel': 18800006666}  # 存在已知dict
+# person('pl', 29, city=extra['city'], Tel=extra['Tel'])  # 写法二
+# person('pl', 29, **extra)  # 写法三  推荐
 # ------------------------------------------------------------
 
 # ------------------------------------------------------
