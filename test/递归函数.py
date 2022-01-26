@@ -47,6 +47,7 @@ def trim(s):
     else:
         return s
 
+
 if trim('hello  ') != 'hello':
     print('测试失败!')
 elif trim('  hello') != 'hello':
